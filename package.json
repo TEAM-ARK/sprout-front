@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/TEAM-ARK/sprout-front/issues"
   },
-  "homepage": "https://github.com/TEAM-ARK/sprout-front#readme"
+  "homepage": "https://github.com/TEAM-ARK/sprout-front#readme",
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
