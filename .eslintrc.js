@@ -14,6 +14,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    'react/jsx-props-no-spreading': 'off',
     'react/function-component-definition': [
       2,
       {
