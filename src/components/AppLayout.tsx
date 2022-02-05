@@ -22,7 +22,7 @@ const AppLayout: FC = ({ children }) => {
 
   const loginWrapper = {
     padding: '20px 20px 40px 20px',
-    textAlign: 'center',
+    textAlign: 'center' as const,
     color: 'rgba(255, 255, 255, 0.65)',
   };
 
@@ -35,8 +35,8 @@ const AppLayout: FC = ({ children }) => {
 
   const siteMove = {
     bottom: 0,
-    position: 'absolute',
-    textAlign: 'center',
+    position: 'absolute' as const,
+    textAlign: 'center' as const,
     padding: '20px 20px',
     width: '100%',
   };
